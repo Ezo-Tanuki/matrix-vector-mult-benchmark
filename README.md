@@ -20,7 +20,7 @@ The time it took to run the process of single matrix vector multiplication doesn
 ![img](image/time-1.png)
 
 for the time complexity, I gathered the data from my code and  you will see a linear progression on the graph\
-\
+NOTE: The time the graph represent should be in 10<sup>-1</sup> ms, not 100 ms\
 ![img](image/time_data.png)
 ## Space
 You can see the memory that the code uses by running `main_b_space.out` and the program will keep running until you terminate the program. While running the program you can see the memory it takes by looking in the task manager, below is the sample for the memory with the `SIZE` of 1000
