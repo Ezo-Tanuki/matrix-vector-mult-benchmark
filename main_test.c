@@ -11,11 +11,6 @@ int main(void){
     int* v = (int*) malloc(SIZE * sizeof(int));
     int* x = (int*) malloc(SIZE * sizeof(int));
 
-    if(M == NULL | v == NULL){
-        printf("Malloc is failed \n");
-        exit(0);
-    }
-
     initMatRandInt(M, 0, 9, SIZE);
     initVecRandInt(v, 0, 9, SIZE);
 
