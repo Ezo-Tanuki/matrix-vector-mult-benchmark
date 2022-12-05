@@ -26,6 +26,6 @@ NOTE: The time the graph represent should be in 10<sup>-1</sup> ms, not 100 ms\
 You can see the memory that the code uses by running `main_b_space.out` and the program will keep running until you terminate the program. While running the program you can see the memory it takes by looking in the task manager, below is the sample for the memory with the `SIZE` of 1000
 ![img](image/space-1.png)
 
-I gather the data for the memory with the `SIZE` ranging from 100 up to 1000 with 100 step between each sample. The data looks like the following:
-![img](image/memory_data.png)
+I gather the data for the memory with the `SIZE` ranging from 100 up to 1000 with 100 step between each sample. The data looks like the following:\
+![img](image/memory_data.png)\
 You can see the graph grows exponentially
